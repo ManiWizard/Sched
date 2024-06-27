@@ -54,7 +54,7 @@ Currently, the resource does not require additional configuration files. All tas
 
 ## Example Usage
 
-```
+```lua
 -- Execute task at 5:10 every day
 TriggerEvent('sched:registerJob', 5, 10, function(hour, minute)
     print('Task done at ' .. hour .. ':' .. minute)
@@ -81,7 +81,7 @@ Registers a new job to be run at a specific time.
 
 **Example:**
 
-```
+```lua
 TriggerEvent('sched:registerJob', 12, 0, function()
     print('Task running at noon')
 end)
