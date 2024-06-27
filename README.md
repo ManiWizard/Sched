@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Sched</h1> <hr />
+<h1>Sched</h1>
 
 **[Discord](https://discord.gg/K8aKgT9KUS) - [Website](https://fivem.immani.net/) - [Documentation](https://documentation.fivem.immani.net/Sched)**
 </div>
