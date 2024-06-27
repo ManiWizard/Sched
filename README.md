@@ -6,7 +6,7 @@
 A simple, but vital, resource that allows resources to run tasks at specific intervals.
 </div>
 
-## Table of Contents
+## 📋 Table of Contents
 
 *   [Installation](#installation)
 *   [Usage](#usage)
@@ -16,28 +16,28 @@ A simple, but vital, resource that allows resources to run tasks at specific int
 *   [Contributing](#contributing)
 *   [License](#license)
 
-## Installation
+## 🔧 Installation
 
 1.  Clone the repository or download the latest release.
 
-```
+```git
 git clone https://github.com/ManiWizard/Sched.git
 ```
 
 3.  Place the `sched` directory in your FiveM server's `resources` directory.
 4.  Add the following line to your `server.cfg` to ensure the resource starts:
 
-```
+```cfg
 start sched
 ```
 
 6.  Restart your FiveM server or start the resource using the console command:
 
-```
+```cfg
 start sched
 ```
 
-## Usage
+## ⚙️ Usage
 
 ### Registering Jobs
 
@@ -48,11 +48,11 @@ You can register jobs to be run at specific times by using the `sched:registerJo
 *   `callback` (function): The function to be executed.
 *   `day` (optional, number): The day of the week on which the job should run (1-7, where 1 is Monday).
 
-## Configuration
+## 🔧 Configuration
 
 Currently, the resource does not require additional configuration files. All tasks are registered via the `sched:registerJob` event.
 
-## Example Usage
+## 💡 Example Usage
 
 ```lua
 -- Execute task at 5:10 every day
@@ -66,7 +66,7 @@ TriggerEvent('sched:registerJob', 18, 30, function(hour, minute)
 end, 1)
 ```
 
-## Events
+## 📅 Events
 
 ### sched:registerJob
 
@@ -87,7 +87,7 @@ TriggerEvent('sched:registerJob', 12, 0, function()
 end)
 ```
 
-## Contributing
+## 🤝 Contributing
 
 1.  Fork the repository.
 2.  Create your feature branch (`git checkout -b feature/your-feature`).
@@ -95,7 +95,7 @@ end)
 4.  Push to the branch (`git push origin feature/your-feature`).
 5.  Create a new Pull Request.
 
-## License
+## 📜 License
 
 Sched - run tasks at specific intervals!
 
