@@ -1,6 +1,6 @@
 <h1 align='center'>Sched</h1>
 <p align='center'>
-    <b><a href='https://discord.esx-framework.org/'>Discord</a> - <a href='https://esx-framework.org/'>Website</a> - <a href='https://documentation.esx-framework.org/legacy/installation'>Documentation</a></b>
+    <b><a href='https://discord.gg/K8aKgT9KUS'>Discord</a> - <a href='https://fivem.immani.net/'>Website</a> - <a href='https://documentation.fivem.immani.net/Sched'>Documentation</a></b>
 </p>
 
 A simple, but vital, resource that allows resources to run tasks at specific intervals.
